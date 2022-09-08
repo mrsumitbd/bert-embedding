@@ -17,7 +17,7 @@ deploy:
   provider: pypi
   distributions: sdist bdist_wheel
   user: mrahman
-  password: pypi-AgEIcHlwaS5vcmcCJDg4ZTBlNzJjLTZmNDUtNDVhMS05YWU0LWU5MWQ2NGViOTdiZAACKlszLCIzNGVlYWRkZi1jMjgwLTQ4NDctYWMyOC0zMmUzMmE3ZmY5YzYiXQAABiDPHHxC2VJnjnHlMnvchbVqA6opFrTPwZfteUPn50mmKw
+  password: "$PYPI_PW"
   on:
     repo: mrsumitbd/bert-embedding
     python: 3.5
