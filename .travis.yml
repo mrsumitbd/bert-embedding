@@ -13,12 +13,12 @@ notifications:
   email: false
 after_success:
   - codecov
-deploy:
-  provider: pypi
-  distributions: sdist bdist_wheel
-  user: mrahman
-  password: "$PYPI_PW"
-  on:
-    repo: mrsumitbd/bert-embedding
-    python: 3.4
-    branch: master
+# deploy:
+#   provider: pypi
+#   distributions: sdist bdist_wheel
+#   user: mrahman
+#   password: "$PYPI_PW"
+#   on:
+#     repo: mrsumitbd/bert-embedding
+#     python: 3.4
+#     branch: master
