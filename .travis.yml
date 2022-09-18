@@ -1,4 +1,7 @@
 language: python
+os:
+  - linux
+  - osx
 cache: pip
 python:
   - '3.6'
