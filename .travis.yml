@@ -2,7 +2,7 @@ language: python
 cache: pip
 python:
   - '3.4'
-  - '3.5'
+  # - '3.5'
   - '3.6'
 install:
   - pip install .
@@ -20,5 +20,5 @@ deploy:
   password: "$PYPI_PW"
   on:
     repo: mrsumitbd/bert-embedding
-    python: 3.5
+    python: 3.6
     branch: master
